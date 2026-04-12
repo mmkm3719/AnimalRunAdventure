@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Animal Run Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+        body {
+            font-family: 'Press Start 2P', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(180deg, #7ec8e3, #4cd964); /* blue-to-green playful */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            color: #fff;
+        }
+
+        .container {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+        h1 {
+            font-size: 3em;
+            color: #ffd700; /* bright yellow */
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #f0f0f0;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+            margin-bottom: 40px;
+        }
+
+        .gif-card {
+    background: #e0f7fa;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 40px;
+}
+
+        .gif-card img {
+            width: 300px;
+            max-width: 100%;
+            border-radius: 15px;
+            display: block;
+        }
+
+        .gif-card:hover {
+            transform: scale(1.05);
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 18px 30px;
+            margin: 15px;
+            text-align: center;
+            background: #4cd964; /* green like settings toggle */
+            color: white;
+            font-size: 0.9em;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: bold;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+        }
+
+        .privacy {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            color: #fff;
+            text-align: center;
+            background: #2c2f3e;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 0.8em;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+            transition: background 0.2s ease;
+        }
+
+        .privacy:hover {
+            background: #404554;
+        }
+
+        /* subtle background floating effect */
+        body::before {
+            content: "";
+            position: fixed;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle at center, rgba(255,255,255,0.05), transparent 70%);
+            animation: rotate 25s linear infinite;
+            pointer-events: none;
+        }
+
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🐾 Animal Run</h1>
+        <p>Run, jump, and dodge obstacles in this fun animal adventure!</p>
+
+        <div class="gif-card">
+            <img src="images/gifgit.gif" alt="Game Screenshot">
+        </div>
+
+        <a class="btn" href="#">Download on Play Store</a>
+        <br>
+        <a class="privacy" href="privacy.html">Privacy Policy</a>
+    </div>
+</body>
+</html>
