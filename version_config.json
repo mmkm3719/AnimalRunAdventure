@@ -2,5 +2,5 @@
     "latestVersion": "0.2.0",
     "updateMessage": "A critical update is required to fix game-breaking bugs and improve performance on your device.",
     "storeUrl": "https://play.google.com/store/apps/details?id=com.yourcompany.yourgame",
-    "isCritical": true
+    "isCritical": false
 }
