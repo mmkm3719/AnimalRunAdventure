@@ -1,5 +1,6 @@
 {
-  "minimum_version": "1.0.0",
-  "update_url_android": "https://play.google.com/store/apps/details?id=com.bluebirdone.mathmonster",
-  "update_url_ios": "https://apps.apple.com/app/idYOUR_APPLE_STORE_ID"
+    "latestVersion": "1.1.0",
+    "updateMessage": "A critical update is required to fix game-breaking bugs and improve performance on your device.",
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.yourcompany.yourgame",
+    "isCritical": true
 }
