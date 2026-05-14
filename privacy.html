@@ -1,27 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Animal Run Game</title>
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; background: #f5f5f5; color: #333; }
-        h1, h2, h3 { color: #2c3e50; }
-        h1 { text-align: center; }
-        ul { margin-left: 20px; }
-        a { color: #3498db; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        .container { max-width: 800px; margin: auto; background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        @page {
+            size: A4;
+            margin: 20mm;
+            background-color: #ffffff;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            font-size: 10.5pt;
+        }
+        .header {
+            background-color: #27ae60;
+            color: white;
+            padding: 30px;
+            margin: -20mm -20mm 30px -20mm;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 22pt;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .last-updated {
+            font-size: 9pt;
+            color: #d1f2eb;
+            margin-top: 10px;
+        }
+        h2 {
+            color: #27ae60;
+            border-left: 5px solid #27ae60;
+            padding-left: 10px;
+            margin-top: 25px;
+            font-size: 14pt;
+            page-break-after: avoid;
+        }
+        h3 {
+            color: #2c3e50;
+            font-size: 12pt;
+            margin-top: 15px;
+            page-break-after: avoid;
+        }
+        p {
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+        ul {
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight-box {
+            background-color: #f4fbf7;
+            border: 1px solid #d5e6db;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 9pt;
+            color: #7f8c8d;
+            border-top: 1px solid #ecf0f1;
+            padding-top: 20px;
+        }
     </style>
 </head>
 <body>
-<div class="container">
-    <h1>Privacy Policy for Animal Run Adventure Game</h1>
-    <p><strong>Last Updated:</strong> April 11 2026</p>
-    <p>Thank you for playing <em>Animal Run Adventure Game</em>. Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your information.</p>
+    <div class="header">
+        <h1>Animal Run Adventure</h1>
+        <div class="last-updated">Privacy Policy | Last Updated: April 11, 2026</div>
+    </div>
+
+    <p>Thank you for playing <strong>Animal Run Adventure Game</strong>. Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your information.</p>
 
     <h2>1. Information We Collect</h2>
-
+    
     <h3>a) Personal Information</h3>
     <p>We do <strong>not</strong> directly collect personal information such as your name, email address, or phone number.</p>
 
@@ -53,8 +116,8 @@
     <h2>3. Third-Party Services</h2>
     <p>We use third-party services that may collect and process data:</p>
     <ul>
-        <li>Google AdMob (for displaying ads)</li>
-        <li>Google Analytics (for usage analysis, if enabled)</li>
+        <li><strong>Google AdMob</strong> (for displaying ads)</li>
+        <li><strong>Google Analytics</strong> (for usage analysis, if enabled)</li>
     </ul>
     <p>These services may collect information in accordance with their own privacy policies.</p>
 
@@ -64,7 +127,9 @@
         <li>Personalize ads</li>
         <li>Measure ad performance</li>
     </ul>
-    <p>You can manage your ad preferences through your device settings.</p>
+    <div class="highlight-box">
+        You can manage your ad preferences through your device settings (IDFA/AAID settings).
+    </div>
 
     <h2>5. User Consent (GDPR & CCPA)</h2>
     <p>If you are located in certain regions (such as the European Economic Area or California), you may be asked to provide consent for data collection and personalized ads.</p>
@@ -75,8 +140,7 @@
     </ul>
 
     <h2>6. Children’s Privacy</h2>
-    <p>Animal Run Game is not intended for children under the age of 13.</p>
-    <p>We do not knowingly collect personal information from children. If you believe that a child has provided personal information, please contact us and we will remove it.</p>
+    <p>Animal Run Game is not intended for children under the age of 13. We do not knowingly collect personal information from children. If you believe that a child has provided personal information, please contact us and we will remove it.</p>
 
     <h2>7. Data Security</h2>
     <p>We take reasonable measures to protect your information. However, no method of transmission over the internet or electronic storage is completely secure.</p>
@@ -85,10 +149,16 @@
     <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated date.</p>
 
     <h2>9. Contact Us</h2>
-    <p>If you have any questions or concerns about this Privacy Policy, please contact us:</p>
-    <p><strong>Email:</strong> <a href="mailto:your-email@example.com">mmkm3719@gmail.com</a></p>
+    <div class="highlight-box" style="text-align: center;">
+        If you have any questions or concerns about this Privacy Policy, please contact us:<br>
+        <strong>Email: mmkm3719@gmail.com</strong>
+    </div>
 
-    <p>By using Animal Run Game, you agree to this Privacy Policy.</p>
-</div>
+    <p style="text-align: center; margin-top: 30px;"><em>By using Animal Run Game, you agree to this Privacy Policy.</em></p>
+
+    <div class="footer">
+        &copy; 2026 Animal Run Adventure Developer. All Rights Reserved.<br>
+        Privacy compliance powered by Google UMP.
+    </div>
 </body>
 </html>
